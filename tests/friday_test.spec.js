@@ -48,7 +48,9 @@ test('after signin', async ({ page }) => {
   // await context.close();
   //await browser.close();
 
+  /html/head/link[6]
 
+/
 }
 
 
