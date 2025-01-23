@@ -21,10 +21,30 @@ console.log(Max);
 })
 
 
-test.only ("Max Array", async() => {
+test("Max Array", async() => {
 
 let number = [10,30,50,90]
 let Max = Math.max(...number);
 console.log(Max);
+
+})
+
+test ("reverse", async() => {
+ function reverseString(str){
+    return str.split('').reverse('').join('')
+
+ }
+    let result = reverseString("stanleyChristopher");
+    console.log(result);
+})
+
+test ("reverse_array", async() => {
+
+function reverseArray (array){
+   return array.reverse()
+}
+   let numbers = [20,30,40,60]
+   let result = reverseArray(numbers);
+    console.log(result);
 
 })
