@@ -58,3 +58,13 @@ test.only ("Captial Letter", async() => {
 
     console.log(result);
 })
+
+
+test ("Test-user", async () => {
+    function tesuser(tusr) {
+        return tusr.map(tesuser => tesuser.toLowerCase())
+    }
+    let result = tesuser(["A","B","C"])
+    console.log(result)
+
+})

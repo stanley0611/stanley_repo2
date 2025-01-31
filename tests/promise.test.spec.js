@@ -3,7 +3,7 @@ const {test,expect} = require ('@playwright/test');
 test("Promise", async() => {
 
 function promise(){
-let promise = new promise(function(resolve,reject) {
+let promise = new Promise(function(resolve,reject) {
 
     let success = true
 
@@ -29,20 +29,6 @@ promise.catch(function(error){
 )
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ promise()
 
 })
