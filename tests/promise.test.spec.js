@@ -32,3 +32,24 @@ promise.catch(function(error){
  promise()
 
 })
+
+
+test.only ("PromiseNew", async () => {
+    function promise(){
+        return promise = new Promise(function(response,reject) {
+            let x =60
+            if (x==600){
+                return response("The value is Okay")
+            }else{
+                return reject("The value is not Okay")
+            }
+        })
+    }
+    promise()
+    .then(function(value){
+        console.log(value)
+    })
+    .catch(function(error){
+        console.log(error)
+    })
+})
