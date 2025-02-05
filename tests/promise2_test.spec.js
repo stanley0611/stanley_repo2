@@ -1,4 +1,5 @@
 const {test,expect} = require ('@playwright/test');
+const { console } = require('inspector');
 
 test ("Promise2", async () => {
     function promise (prr) {
@@ -81,7 +82,7 @@ console.log(fibo(10))
 } )
 
 
-test ("reverse", async() => {
+test.only ("reverse", async() => {
  function reverse (rem){
     return rem.split('').reverse().join('')
  }
@@ -90,9 +91,10 @@ console.log(result)
 
 })
 
-test ("remove", async() => {
+test("remove", async() => {
 function remove(remo) {
-    return(remo).replace(/[^a-zA-Z0-9 ]/g,"")
+    //console.log('test', remo)
+    return(remo).replace(/[a-zA-Z0-9 ]/g,"")
 }
 let result = remove("#$%^&*576 Hello &*")
 console.log(result)
