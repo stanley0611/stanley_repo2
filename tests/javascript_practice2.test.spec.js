@@ -40,10 +40,23 @@ test ("First letter only", async() => {
     console.log(result)
 })
 
-test.only ("Last letter only", async() => {
+test ("Last letter only", async() => {
     function lastLetteronly(llo){
         return llo.split(' ').map(word => word.slice(0,-1) + word.slice(-1).toUpperCase()).join(' ')
     }
     let result = lastLetteronly("great place to work is just a phrase")
     console.log(result)
 })
+
+test.only("Callback", async() => {
+    function greeting(greet,callback){
+        return callback(greet + " ")
+        
+    }
+    function callback(name){
+        return name +"Stanley"
+    }
+    let result = greeting("Hello", callback)
+    console.log(result)
+})
+
