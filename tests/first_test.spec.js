@@ -11,7 +11,8 @@ await page.locator('input[name="email"]').fill('stanley.s@strategy.ai');
 
 await page.locator('input[type="password"]').fill('Ironman@123');
 
-await page.getByRole("button",{ text : 'Sign In'}).click()
+//await page.getByRole("button",{ text : 'Sign In'}).click()
+await page.locator('//span[contains(text(), "Sign In")]').click()
 
 }
 

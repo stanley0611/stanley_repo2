@@ -53,3 +53,12 @@ test.only ("PromiseNew", async () => {
         console.log(error)
     })
 })
+
+
+
+
+
+// const browser = await chromium.launch()
+// const context = await browser.newContext()
+// const page = await context.newPage()
+

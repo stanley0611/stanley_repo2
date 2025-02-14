@@ -68,3 +68,12 @@ test ("Test-user", async () => {
     console.log(result)
 
 })
+
+
+test.only("sort", async() =>{
+    function sort(srt) {
+        return srt.sort((a,b) => b-a)
+    }
+    let result = sort([5,9,8,6,3,85]);
+    console.log(result)
+})

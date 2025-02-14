@@ -20,4 +20,4 @@ test('test', async ({ page, context }) => {
     await context.tracing.stop({ path: 'test-trace.zip' });
 
 })
-    ;
+    
