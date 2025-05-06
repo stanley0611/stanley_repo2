@@ -1,0 +1,6 @@
+/workspaces/stanley_repo2/PlaywrightDemo/obj/Debug/net8.0/PlaywrightDemo.csproj.AssemblyReference.cache
+/workspaces/stanley_repo2/PlaywrightDemo/obj/Debug/net8.0/PlaywrightDemo.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/stanley_repo2/PlaywrightDemo/obj/Debug/net8.0/PlaywrightDemo.AssemblyInfoInputs.cache
+/workspaces/stanley_repo2/PlaywrightDemo/obj/Debug/net8.0/PlaywrightDemo.AssemblyInfo.cs
+/workspaces/stanley_repo2/PlaywrightDemo/obj/Debug/net8.0/PlaywrightDemo.csproj.CoreCompileInputs.cache
+/workspaces/stanley_repo2/PlaywrightDemo/obj/Debug/net8.0/PlaywrightDemo.sourcelink.json
